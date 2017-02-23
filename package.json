@@ -1,0 +1,25 @@
+{
+  "name": "nap-dlp-api",
+  "version": "1.0.0",
+  "description": "AMP hackday api to get dlps as data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thearegee/nap-dlp-api.git"
+  },
+  "author": "Robin Glen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thearegee/nap-dlp-api/issues"
+  },
+  "homepage": "https://github.com/thearegee/nap-dlp-api#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
