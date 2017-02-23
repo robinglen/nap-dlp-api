@@ -17,7 +17,10 @@ const dpl = {
         desc: desc,
         img: path
       }
+      return obj;
     }, (err) => {
+      console.log(error);
+      return null
     })
   }
 
